@@ -8,6 +8,8 @@ If someone else stumbles upon this and (by some freak accident of the universe) 
 
 Here's what it looks like:
 
+![Screenshot](../assets/screenshot.png?raw=true "Screenshot")
+
 # License
 
 See the LICENSE file.
