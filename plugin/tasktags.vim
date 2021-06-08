@@ -110,29 +110,29 @@ function! s:Tasker(tag)
 endfunction
 
 " nnoremap ;e :call Tasker(' ')<CR>0f[ 
-nnoremap ;x :call Tasker('NEXT')<CR> 
-nnoremap ;t :call Tasker('TASK')<CR>
-nnoremap ;o :call Tasker('ONGO')<CR>
-nnoremap ;d :call Tasker('DONE')<CR>
-nnoremap ;r :call Tasker('DROP')<CR>
-nnoremap ;p :call Tasker('PROB')<CR>
-nnoremap ;f :call Tasker('FAIL')<CR>
-nnoremap ;n :call Tasker('NOTE')<CR>
-nnoremap ;w :call Tasker('WAIT')<CR>
-nnoremap ;u :call Tasker('PUSH')<CR>
-nnoremap ;m :call Tasker('MEET')<CR>
+nnoremap ;x :call <SID>Tasker('NEXT')<CR> 
+nnoremap ;t :call <SID>Tasker('TASK')<CR>
+nnoremap ;o :call <SID>Tasker('ONGO')<CR>
+nnoremap ;d :call <SID>Tasker('DONE')<CR>
+nnoremap ;r :call <SID>Tasker('DROP')<CR>
+nnoremap ;p :call <SID>Tasker('PROB')<CR>
+nnoremap ;f :call <SID>Tasker('FAIL')<CR>
+nnoremap ;n :call <SID>Tasker('NOTE')<CR>
+nnoremap ;w :call <SID>Tasker('WAIT')<CR>
+nnoremap ;u :call <SID>Tasker('PUSH')<CR>
+nnoremap ;m :call <SID>Tasker('MEET')<CR>
 
 " vnoremap ;e :call Tasker(' ')<CR>0f[ 
 " vnoremap ;x :call Tasker('X')<CR> 
-vnoremap ;x :call Tasker('NEXT')<CR> 
-vnoremap ;t :call Tasker('TASK')<CR>
-vnoremap ;o :call Tasker('ONGO')<CR>
-vnoremap ;d :call Tasker('DONE')<CR>
-vnoremap ;r :call Tasker('DROP')<CR>
-vnoremap ;p :call Tasker('PROB')<CR>
-vnoremap ;f :call Tasker('FAIL')<CR>
-vnoremap ;n :call Tasker('NOTE')<CR>
-vnoremap ;w :call Tasker('WAIT')<CR>
-vnoremap ;u :call Tasker('PUSH')<CR>
-vnoremap ;m :call Tasker('MEET')<CR>
+vnoremap ;x :call <SID>Tasker('NEXT')<CR> 
+vnoremap ;t :call <SID>Tasker('TASK')<CR>
+vnoremap ;o :call <SID>Tasker('ONGO')<CR>
+vnoremap ;d :call <SID>Tasker('DONE')<CR>
+vnoremap ;r :call <SID>Tasker('DROP')<CR>
+vnoremap ;p :call <SID>Tasker('PROB')<CR>
+vnoremap ;f :call <SID>Tasker('FAIL')<CR>
+vnoremap ;n :call <SID>Tasker('NOTE')<CR>
+vnoremap ;w :call <SID>Tasker('WAIT')<CR>
+vnoremap ;u :call <SID>Tasker('PUSH')<CR>
+vnoremap ;m :call <SID>Tasker('MEET')<CR>
 
