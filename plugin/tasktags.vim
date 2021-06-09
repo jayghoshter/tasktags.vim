@@ -68,6 +68,7 @@ augroup HiglightTODO
     autocmd BufEnter * :silent! call matchadd('Ongoing', '\[PART\]', -1)
     autocmd BufEnter * :silent! call matchadd('Error', '\[PROB\]', -1)
     autocmd BufEnter * :silent! call matchadd('Error', '\[FAIL\]', -1)
+    autocmd BufEnter * :silent! call matchadd('Error', '\[CRIT\]', -1)
     autocmd BufEnter * :silent! call matchadd('Task', '\[WORK\]', -1)
     autocmd BufEnter * :silent! call matchadd('Task', '\[TASK\]', -1)
     autocmd BufEnter * :silent! call matchadd('Task', '\[DCHK\]', -1)
@@ -121,6 +122,7 @@ nnoremap ;n :call <SID>Tasker('NOTE')<CR>
 nnoremap ;w :call <SID>Tasker('WAIT')<CR>
 nnoremap ;u :call <SID>Tasker('PUSH')<CR>
 nnoremap ;m :call <SID>Tasker('MEET')<CR>
+nnoremap ;c :call <SID>Tasker('CRIT')<CR>
 
 " vnoremap ;e :call Tasker(' ')<CR>0f[ 
 " vnoremap ;x :call Tasker('X')<CR> 
@@ -135,4 +137,5 @@ vnoremap ;n :call <SID>Tasker('NOTE')<CR>
 vnoremap ;w :call <SID>Tasker('WAIT')<CR>
 vnoremap ;u :call <SID>Tasker('PUSH')<CR>
 vnoremap ;m :call <SID>Tasker('MEET')<CR>
+vnoremap ;c :call <SID>Tasker('CRIT')<CR>
 
