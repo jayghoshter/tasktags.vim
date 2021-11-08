@@ -57,6 +57,7 @@ call s:hi("Drop", s:nord0_gui, s:nord6_gui, s:nord6_term)
 call s:hi("Next", s:nord0_gui, s:nord12_gui, s:nord12_term)
 call s:hi("Push", s:nord0_gui, s:nord12_gui, s:nord12_term)
 call s:hi("Project", s:nord0_gui, s:nord5_gui, s:nord5_term)
+call s:hi("Dash", s:nord0_gui, s:nord4_gui, s:nord6_term)
 
 call matchadd('Success', '\[PASS\]', -1)
 call matchadd('Project', '\[PROJ:[^]]*\]', -1)
@@ -77,6 +78,7 @@ call matchadd('Wait', '\[WAIT\]', -1)
 call matchadd('Drop', '\[DROP\]', -1)
 call matchadd('Next', '\[NEXT\]', -1)
 call matchadd('Push', '\[PUSH\]', -1)
+call matchadd('Dash', '\[DASH\]', -1)
 
 "" DnD Highlights
 call matchadd('Ongoing', '@npc', -1)
@@ -119,6 +121,7 @@ nnoremap ;w :call <SID>Tasker('WAIT')<CR>
 nnoremap ;u :call <SID>Tasker('PUSH')<CR>
 nnoremap ;m :call <SID>Tasker('MEET')<CR>
 nnoremap ;c :call <SID>Tasker('CRIT')<CR>
+nnoremap ;a :call <SID>Tasker('DASH')<CR>
 
 " vnoremap ;e :call Tasker(' ')<CR>0f[ 
 " vnoremap ;x :call Tasker('X')<CR> 
@@ -134,4 +137,5 @@ vnoremap ;w :call <SID>Tasker('WAIT')<CR>
 vnoremap ;u :call <SID>Tasker('PUSH')<CR>
 vnoremap ;m :call <SID>Tasker('MEET')<CR>
 vnoremap ;c :call <SID>Tasker('CRIT')<CR>
+vnoremap ;a :call <SID>Tasker('DASH')<CR>
 
